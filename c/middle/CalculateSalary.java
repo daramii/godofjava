@@ -15,6 +15,9 @@ public class CalculateSalary {
         int type = employee.getType();
         //System.out.println(type);
         long salary = employee.getSalary();
+
+
+
         if(type == 1) {
             return  (long)(salary + (salary * (-0.95)));
         }
