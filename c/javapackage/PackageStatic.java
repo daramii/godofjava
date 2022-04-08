@@ -1,16 +1,16 @@
 package c.javapackage;
 
 //import c.javapackage.sub.SubStatic.subStaticMethod;
-import static c.java.package.sub.SubStatic.subStaticMethod;
-import static c.java.package.sub.SubStatic.CLASS_NAME;
-//¿©·¯ÁÙ·Î ÀÔ·ÂÇÏ±â ±ÍÂúÀ¸¸é ±×³É
-//import static c.java.package.sub.SubStatic.*; ÀÌ·¸°Ô ÇÏ¸é µÈ´Ù.
+import static c.javapackage.sub.SubStatic.subStaticMethod;
+import static c.javapackage.sub.SubStatic.CLASS_NAME;
+//ï¿½ï¿½ï¿½ï¿½ï¿½Ù·ï¿½ ï¿½Ô·ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×³ï¿½
+//import static c.java.package.sub.SubStatic.*;
 
 public class PackageStatic {
   public static void main(String[] args) {
     
     //SubStatic.subStaticMethod();
-    subStaticMethod(); //staticÀ¸·Î importÇÑ °æ¿ì¿¡´Â ¸í½ÃÀûÀ¸·Î ÁöÁ¤ÀÌÇÊ¿ä¾ø´Ù.
+    subStaticMethod(); //staticï¿½ï¿½ï¿½ï¿½ importï¿½ï¿½ ï¿½ï¿½ì¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¿ï¿½ï¿½ï¿½ï¿½.
     //System.out.println(SubStatic.CLASS_NAME);
     System.out.println(CLASS_NAME);
     

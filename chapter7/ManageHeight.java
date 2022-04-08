@@ -5,7 +5,7 @@ public class ManageHeight{
     
     ManageHeight mh = new ManageHeight();
     mh.setData();
-    for( int classNo = 1; classNo <= gradeHeights.length; classNo++) {      
+    for( int classNo = 1; classNo <= mh.gradeHeights.length; classNo++) {
       mh.printHeight(classNo);
       mh.printAverage(classNo);
     }

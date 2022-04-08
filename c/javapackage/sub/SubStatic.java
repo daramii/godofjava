@@ -1,4 +1,4 @@
-package c.javpackage.sub;
+package c.javapackage.sub;
 
 public class SubStatic {
   public final static String CLASS_NAME = "";
